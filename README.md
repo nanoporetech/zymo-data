@@ -1,5 +1,5 @@
-# zymo-data
-Oxford Nanopore Technologies Zymo Mock Community data
+# zymo-data release 2019-02
+Oxford Nanopore Technologies Zymo Mock Community data on R9.4.1
 
 
 
