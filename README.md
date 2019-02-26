@@ -1,4 +1,4 @@
-# zymo-data release 2019-02
+# Zymo Data release 2019-02
 Oxford Nanopore Technologies Zymo Mock Community data on R9.4.1
 
 We are happy to announce the release of Zymo mock community dataset for R9.4.1. This dataset has recently been used internally as a method of measuring platform and algorithm improvements.
