@@ -15,7 +15,9 @@ The first 20 hours from each flow cell has been used, totalling 59.6 Gb of data 
 | MinKNOW     | 18.12.4 |
 | Basecalling | Flip-Flop Model in Guppy 2.3.5 |
 
-Further Details Are available to members of the Nanopore community in the link below:
+## Community Discussion ##
+
+Further details are available to members of the Nanopore community in the link below:
 https://community.nanoporetech.com/posts/zymo-mock-community-data-r-4067
 
 
