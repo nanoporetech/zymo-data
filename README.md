@@ -12,6 +12,10 @@ Flow Cell: FLO-MIN106 (R9.4.1, RevC)
 MinKNOW Version: 18.12.4 Basecalling: 
 Flip-Flop Model in Guppy 2.3.5
 
+Further Details Are available to members of the Nanopore community in the link below:
+https://community.nanoporetech.com/posts/zymo-mock-community-data-r-4067
+
+
 
 ## Files ##
 | Type | URL |
