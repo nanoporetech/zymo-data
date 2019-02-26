@@ -6,11 +6,14 @@ Data Generation Conditions:
 This data was generated on five MinION Flow Cells (FLO-MIN106). 
 The first 20 hours from each flow cell has been used, totalling 59.6 Gb of data (median 12 Gb per flow cell).
 
-Version Management: 
-Device: GridION 
-Flow Cell: FLO-MIN106 (R9.4.1, RevC) 
-MinKNOW Version: 18.12.4 Basecalling: 
-Flip-Flop Model in Guppy 2.3.5
+## Version Management ##
+
+| Entity | Value |
+|--------|-------|
+| Device | GridION 
+| Flow Cell   | FLO-MIN106 (R9.4.1, RevC) |
+| MinKNOW     | 18.12.4 |
+| Basecalling | Flip-Flop Model in Guppy 2.3.5 |
 
 Further Details Are available to members of the Nanopore community in the link below:
 https://community.nanoporetech.com/posts/zymo-mock-community-data-r-4067
