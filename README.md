@@ -27,8 +27,12 @@ https://community.nanoporetech.com/posts/zymo-mock-community-data-r-4067
 |----------------|--------------------------------------------------------------------|
 | Sizes          | https://s3.amazonaws.com/ont-zymo/2019-02+R9.4.1/fastq.listing.txt |
 | MD5 checksums  | https://s3.amazonaws.com/ont-zymo/2019-02+R9.4.1/fastq.md5sums.txt |
+| .fast5 files   | s3://ont-zymo/2019-02 R9.4.1 fast5/                                |
+
 
 ## Download script ##
+
+To download the `.fastq` data, the below script can be used:
 ```
 #!/bin/bash
 curl -o fastq.listing.txt https://s3.amazonaws.com/ont-zymo/2019-02+R9.4.1/fastq.listing.txt
@@ -40,3 +44,9 @@ for i in $(awk '{print $NF}' < fastq.listing.txt); do
   curl -o $dir/$fn https://s3.amazonaws.com/ont-zymo/2019-02+R9.4.1/$i;
 done
 ```
+
+The `.fast5` data is large and is best downloaded using the the [aws cli](https://aws.amazon.com/cli/), e.g.:
+
+    aws s3 sync --no-sign-request "s3://ont-zymo/2019-02 R9.4.1 fast5/" ont-zymo-fast5
+    
+The `--no-sign-request` can be omitted if you have AWS credentials.
